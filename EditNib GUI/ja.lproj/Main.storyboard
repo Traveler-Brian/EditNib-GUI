@@ -786,7 +786,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                                 <textFieldCell key="cell" selectable="YES" id="mws-do-jMr">
                                     <font key="font" metaFont="system"/>
-                                    <mutableString key="title">This is a simple application which allows you to decompile nib files. -This application uses command "editnib (nibfile)". -The decompiled file may not be able to opened because of some unknown reasons. -This is an open-source application, non-commercial use only. -For details, please visit the readme file on github.</mutableString>
+                                    <string key="title">This is a simple application which allows you to decompile nib files. -This application uses command "editnib (nibfile)". -The decompiled file may not be able to opened because of some unknown reasons. -This is an open-source application, non-commercial use only. -For details, please visit the readme file on github.</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -840,9 +840,9 @@
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8LJ-45-Eld">
                                 <rect key="frame" x="362" y="164" width="104" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Folder..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6zV-A7-Fuf">
+                                <buttonCell key="cell" type="push" title="フォルダー" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6zV-A7-Fuf">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="SelectFolder:" target="XfG-lQ-9wD" id="QlK-Tw-dW6"/>
@@ -851,9 +851,9 @@
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uvb-v3-3LX">
                                 <rect key="frame" x="14" y="135" width="452" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Convert!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cdF-W7-tmn">
+                                <buttonCell key="cell" type="push" title="今すぐ変換！" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cdF-W7-tmn">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="ConvertButtonPressed:" target="XfG-lQ-9wD" id="NDl-qP-QiM"/>

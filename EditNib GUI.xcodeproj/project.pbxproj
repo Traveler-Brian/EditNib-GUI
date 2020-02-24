@@ -11,6 +11,10 @@
 		01F995E02403CBA600FFAC76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F995DF2403CBA600FFAC76 /* ViewController.swift */; };
 		01F995E22403CBA800FFAC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F995E12403CBA800FFAC76 /* Assets.xcassets */; };
 		01F995E52403CBA800FFAC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F995E32403CBA800FFAC76 /* Main.storyboard */; };
+		01F995EE2403CBC200FFAC76 /* ShellOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F995ED2403CBC200FFAC76 /* ShellOut.swift */; };
+		01F995F02403CFB700FFAC76 /* editnib in Resources */ = {isa = PBXBuildFile; fileRef = 01F995EF2403CFB600FFAC76 /* editnib */; };
+		01F995F32403E15000FFAC76 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F995F12403E15000FFAC76 /* About.swift */; };
+		01F995F42403E15000FFAC76 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F995F22403E15000FFAC76 /* About.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,12 @@
 		01F995E42403CBA800FFAC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01F995E62403CBA800FFAC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01F995E72403CBA800FFAC76 /* EditNib_GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EditNib_GUI.entitlements; sourceTree = "<group>"; };
+		01F995ED2403CBC200FFAC76 /* ShellOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellOut.swift; sourceTree = "<group>"; };
+		01F995EF2403CFB600FFAC76 /* editnib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = editnib; sourceTree = "<group>"; };
+		01F995F12403E15000FFAC76 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		01F995F22403E15000FFAC76 /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		01F995F82403E3AA00FFAC76 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01F995FA2403E40800FFAC76 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,8 @@
 		01F995D12403CBA600FFAC76 = {
 			isa = PBXGroup;
 			children = (
+				01F995F12403E15000FFAC76 /* About.swift */,
+				01F995F22403E15000FFAC76 /* About.xib */,
 				01F995DC2403CBA600FFAC76 /* EditNib GUI */,
 				01F995DB2403CBA600FFAC76 /* Products */,
 			);
@@ -55,6 +67,8 @@
 			children = (
 				01F995DD2403CBA600FFAC76 /* AppDelegate.swift */,
 				01F995DF2403CBA600FFAC76 /* ViewController.swift */,
+				01F995ED2403CBC200FFAC76 /* ShellOut.swift */,
+				01F995EF2403CFB600FFAC76 /* editnib */,
 				01F995E12403CBA800FFAC76 /* Assets.xcassets */,
 				01F995E32403CBA800FFAC76 /* Main.storyboard */,
 				01F995E62403CBA800FFAC76 /* Info.plist */,
@@ -105,6 +119,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				"zh-Hans",
 			);
 			mainGroup = 01F995D12403CBA600FFAC76;
 			productRefGroup = 01F995DB2403CBA600FFAC76 /* Products */;
@@ -121,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F995F02403CFB700FFAC76 /* editnib in Resources */,
+				01F995F42403E15000FFAC76 /* About.xib in Resources */,
 				01F995E22403CBA800FFAC76 /* Assets.xcassets in Resources */,
 				01F995E52403CBA800FFAC76 /* Main.storyboard in Resources */,
 			);
@@ -134,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F995E02403CBA600FFAC76 /* ViewController.swift in Sources */,
+				01F995F32403E15000FFAC76 /* About.swift in Sources */,
+				01F995EE2403CBC200FFAC76 /* ShellOut.swift in Sources */,
 				01F995DE2403CBA600FFAC76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +165,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				01F995E42403CBA800FFAC76 /* Base */,
+				01F995F82403E3AA00FFAC76 /* ja */,
+				01F995FA2403E40800FFAC76 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,6 +178,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -216,6 +239,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
